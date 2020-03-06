@@ -14,7 +14,7 @@ namespace EntityFramework
             {
                 Console.WriteLine("All Students");
                 var allstudents = db.Students.Select(s => s.Name);
-
+                //new
                 foreach(var v in allstudents)
                 {
                     Console.WriteLine(v);
